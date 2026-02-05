@@ -1,0 +1,31 @@
+# Build outputs
+build/
+filesystem/
+*.z64
+*.elf
+*.o
+*.d
+*.dfs
+*.pak
+*.map
+
+# External toolchains (download with install.bat)
+n64-toolchain/
+
+# External libraries (submodules or manual clone)
+libdragon/
+tiny3d/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+*~
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
